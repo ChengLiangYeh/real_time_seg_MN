@@ -27,3 +27,25 @@ cd AdelaiDet
 python setup.py build develop
 ```
 Note that: Check [AdelaiDet](https://github.com/aim-uofa/AdelaiDet)
+
+# Model:
+- SOLOv2 weight:
+- inference command:
+```
+```
+----------------------------------------
+- BlendMask weight:
+- inference command:
+```
+```
+----------------------------------------
+- Mask R-CNN weight:
+- inference command:
+```
+```
+----------------------------------------
+- Yolact weight:
+- inference command:
+```
+```
+----------------------------------------
