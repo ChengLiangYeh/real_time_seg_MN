@@ -57,6 +57,7 @@ python maskrcnn_retry_inference.py #you need to revise the weight path for yours
 ```
 ----------------------------------------
 - Yolact weight:
+- inference: Note that, Check and follow yolact installation [here](https://github.com/dbolya/yolact). Highly recommand to bulid it in the Anaconda independent environment.
 - inference command:
 ```
 ```
