@@ -39,9 +39,14 @@ OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/SOLOv2/R50
 OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/SOLOv2/R101_3x.yaml     --eval-only     --num-gpus 3     OUTPUT_DIR training_dir/SOLOv2_R101     MODEL.WEIGHTS training_dir/SOLOv2_R101/solov2_r101fpn_weight.pth
 ```
 ----------------------------------------
-- BlendMask weight: please check the google drive link for downloading model weight.
+- BlendMask weight: please check the google drive link for downloading model weight. [R50](https://drive.google.com/file/d/12QMHhyuvWfei1K6qDwB9_Cuey6AQKjtB/view?usp=share_link), [R101](https://drive.google.com/file/d/1cDVs-BGCcV1FyzW5rI1G-VAVb7m2cuVy/view?usp=sharing)
+- inference: Note that, Check and follow SOLO inference setting. 
 - inference command:
 ```
+OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/BlendMask/R_50_3x.yaml     --eval-only     --num-gpus 3     OUTPUT_DIR training_dir/bm     MODEL.WEIGHTS training_dir/bm/blendmask_r50fpn_weight.pth
+```
+```
+OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/BlendMask/R_101_3x.yaml     --eval-only     --num-gpus 3     OUTPUT_DIR training_dir/bm     MODEL.WEIGHTS training_dir/bm/blendmask_r101fpn_weight.pth
 ```
 ----------------------------------------
 - Mask R-CNN weight:
