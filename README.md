@@ -53,7 +53,7 @@ OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/BlendMask/
 - inference: Note that, Check and follow detectron2 setting. If you need some basic instruction, please see [TORCHVISION OBJECT DETECTION FINETUNING TUTORIAL](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)
 - inference command:
 ```
-python maskrcnn_retry.py
+python maskrcnn_retry_inference.py #you need to revise the weight path for yourself.
 ```
 ----------------------------------------
 - Yolact weight:
