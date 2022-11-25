@@ -56,12 +56,19 @@ OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/BlendMask/
 python maskrcnn_retry_inference.py #you need to revise the weight path for yourself.
 ```
 ----------------------------------------
-- Yolact weight:
+- Yolact weight: please check the google drive link for downloading model weight.[R50](https://drive.google.com/file/d/1BBpWsUPnHUslAzarXchoTv0C4_me_mKi/view?usp=share_link), [R101](https://drive.google.com/file/d/1yoJREwB-el30tQsOfWbIS39DnN6H0Nb0/view?usp=share_link)
 - inference: Note that, Check and follow yolact installation [here](https://github.com/dbolya/yolact). Highly recommand to bulid it in the Anaconda independent environment.
 - inference command:
 ```
+#To get mask mAP:
+python eval.py --trained_model=weights/yolact_r50fpn_weight.pth
+python eval.py --trained_model=weights/yolact_r101fpn_weight.pth
+
+#To run COCOEval on the files:
+python run_coco_eval.py
 ```
+- Note that, for more command, check the [yolact](https://github.com/dbolya/yolact)
 ----------------------------------------
 
 # Dataset: 
-- Because of ..., please contact ... for more details.
+- Please contact us for more details.
