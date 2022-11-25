@@ -49,7 +49,7 @@ OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/BlendMask/
 OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/BlendMask/R_101_3x.yaml     --eval-only     --num-gpus 3     OUTPUT_DIR training_dir/bm     MODEL.WEIGHTS training_dir/bm/blendmask_r101fpn_weight.pth
 ```
 ----------------------------------------
-- Mask R-CNN weight:
+- Mask R-CNN weight: please check the google drive link for downloading model weight.[R50](https://drive.google.com/file/d/1QvKdyroyDQE7rWSlgGtUxWMtMjUWgonQ/view?usp=share_link), [R101](https://drive.google.com/file/d/1RH3y7w-bj3aiRpM_o95DfwapcEnPwabU/view?usp=share_link)
 - inference: Note that, Check and follow detectron2 setting. If you need some basic instruction, please see [TORCHVISION OBJECT DETECTION FINETUNING TUTORIAL](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)
 - inference command:
 ```
