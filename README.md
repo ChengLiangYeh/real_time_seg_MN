@@ -50,8 +50,10 @@ OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/BlendMask/
 ```
 ----------------------------------------
 - Mask R-CNN weight:
+- inference: Note that, Check and follow detectron2 setting. If you need some basic instruction, please see [TORCHVISION OBJECT DETECTION FINETUNING TUTORIAL](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)
 - inference command:
 ```
+python maskrcnn_retry.py
 ```
 ----------------------------------------
 - Yolact weight:
