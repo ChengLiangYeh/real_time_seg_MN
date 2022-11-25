@@ -1,6 +1,6 @@
 # Real Time Segmentation Of Median Nerve
-![1](real_time_seg_MN/seg_result.png)
-- This repo is for "Real-time segmentation of median nerve in dynamic sonography using state-of-the-art deep learning models". (Dec. 2021) 
+![1](https://github.com/ChengLiangYeh/real_time_seg_MN/blob/main/seg_result.png)
+- This repo is for "Real-time segmentation of median nerve in dynamic sonography using state-of-the-art deep learning models". (Dec. 2021)
 - We implement some state-of-the-art deep learning instance segmentation frameworks to segment median nerve in dynamic sonography. Our implementation relies on an open source toolbox called [adelaiDet](https://github.com/aim-uofa/AdelaiDet). AdelaiDet is bulit on top of [Detectron2](https://github.com/facebookresearch/detectron2/tree/d4412c7070b28e50037b3797de8a579afd008b2b), which is Facebook AI Research's next generation library that provides state-of-the-art detection and segmentation algorithms.
 - Current model weights and codes which are only for inference.
 - To date, this repo offers inference codes and following model weights:
