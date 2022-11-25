@@ -29,9 +29,10 @@ python setup.py build develop
 Note that: Check [AdelaiDet](https://github.com/aim-uofa/AdelaiDet)
 
 # Model:
-- SOLOv2 weight:
-- inference command:
+- SOLOv2 weight: please check the google drive link for downloading model weight.
+- inference: Note that, Setting Detectron2 and AdelaiDet is the first step. Second, git clone this repo for 
 ```
+
 ```
 ----------------------------------------
 - BlendMask weight:
