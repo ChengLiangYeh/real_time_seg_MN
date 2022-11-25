@@ -30,9 +30,13 @@ Note that: Check [AdelaiDet](https://github.com/aim-uofa/AdelaiDet)
 
 # Model:
 - SOLOv2 weight: please check the google drive link for downloading model weight.
-- inference: Note that, Setting Detectron2 and AdelaiDet is the first step. Second, git clone this repo for 
+- inference: Note that, Setting Detectron2 and AdelaiDet is the first step. Second, git clone this repo for all folders. Finally, copy all files in those folders, and replace the corresponding files in the AdelaiDet folder. 
+- command:
 ```
-
+OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/SOLOv2/R50_3x.yaml     --eval-only     --num-gpus 3     OUTPUT_DIR training_dir/SOLOv2_R50     MODEL.WEIGHTS training_dir/SOLOv2_R50/solov2_r50fpn_weight.pth
+```
+```
+OMP_NUM_THREADS=3 python tools/train_net.py     --config-file configs/SOLOv2/R101_3x.yaml     --eval-only     --num-gpus 3     OUTPUT_DIR training_dir/SOLOv2_R101     MODEL.WEIGHTS training_dir/SOLOv2_R101/solov2_r101fpn_weight.pth
 ```
 ----------------------------------------
 - BlendMask weight:
